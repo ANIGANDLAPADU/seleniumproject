@@ -1,4 +1,4 @@
-package utilites;
+package com.selenium.utilites;
 
 import java.io.IOException;
 //import java.net.URL;
@@ -17,8 +17,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-
-import testbase.BaseClass;
+import com.selenium.testbase.BaseClass;
 
 public class ExtentReportManager implements ITestListener {
 	public ExtentSparkReporter sparkReporter;
@@ -31,9 +30,9 @@ public class ExtentReportManager implements ITestListener {
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
 		repName = "seleniumproject-Report-" + timeStamp + ".html";
 
-		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);// specify location of the report
-		/*sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir")+ repName);*/
-	    /*sparkReporter = new ExtentSparkReporter("D:\\seleniumproject\\reports");*/
+		/*sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);// specify location of the report
+*/		/*sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir")+ repName);*/
+	    sparkReporter = new ExtentSparkReporter("D:\\seleniumproject\\" + repName);
 		
 		
 

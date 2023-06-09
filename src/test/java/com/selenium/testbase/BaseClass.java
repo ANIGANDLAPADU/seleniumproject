@@ -1,4 +1,4 @@
-package testbase;
+package com.selenium.testbase;
 
 import java.io.File;
 import java.io.IOException;
@@ -32,7 +32,7 @@ public class BaseClass {
 		logger = LogManager.getLogger(this.getClass());
 
 		System.setProperty("WebDriver.Chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome");
-		
+
 		driver = new ChromeDriver(options);
 		// driver.manage().deleteAllCookies();
 

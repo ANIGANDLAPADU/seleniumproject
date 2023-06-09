@@ -1,13 +1,13 @@
-package testcases;
+package com.selenium.testcases;
 
 
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pageobjects.AccountRegistrationPage;
-import pageobjects.HomePage;
-import testbase.BaseClass;
+import com.selenium.pageobjects.AccountRegistrationPage;
+import com.selenium.pageobjects.HomePage;
+import com.selenium.testbase.BaseClass;
 
 public class TC_001_AccountRegistrationTest extends BaseClass{
 	@Test

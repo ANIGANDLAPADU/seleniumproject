@@ -1,4 +1,4 @@
-package pageobjects;
+package com.selenium.pageobjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
