@@ -5,7 +5,7 @@
 <listener class-name="com.selenium.utilites.ExtentReportManager"></listener>
 </listeners>
   <test name="Test">
-  <parameter name="browser" value="chrome"></parameter>
+ <!--  <parameter name="browser" value="chrome"></parameter> -->
     <classes>
       <class name="com.selenium.testcases.TC_001_Login"/>
     </classes>

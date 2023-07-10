@@ -1,10 +1,6 @@
 package com.selenium.utilites;
 
 import java.io.IOException;
-//import java.net.URL;
-
-//Extent report 5.x...//version
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -26,46 +22,44 @@ public class ExtentReportManager implements ITestListener {
 
 	String repName;
 
-    	public void onStart(ITestContext testContext) {
+	public void onStart(ITestContext testContext) {
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
-		repName = "seleniumproject-Report-" + timeStamp + ".html";
+		repName = "Test-Report-" + timeStamp + ".html";
 
-		/*sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);// specify location of the report
-*/		/*sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir")+ repName);*/
-	    sparkReporter = new ExtentSparkReporter("D:\\seleniumproject\\" + repName);
-		
-		
+		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);// specify location of the report
 
-		sparkReporter.config().setDocumentTitle("opencart Automation Report"); // Title of report
-		sparkReporter.config().setReportName("opencart Functional Testing"); // name of the report
+		sparkReporter.config().setDocumentTitle("SeleniumAutomationProject"); // Title of report
+		sparkReporter.config().setReportName("Selenium Project"); // name of the report
 		sparkReporter.config().setTheme(Theme.DARK);
 
 		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);
-		extent.setSystemInfo("Application", "opencart");
-		extent.setSystemInfo("Module", "Admin");
-		extent.setSystemInfo("Sub Module", "Customers");
+		extent.setSystemInfo("Application", "AutomationTesting");
 		extent.setSystemInfo("Operating System", System.getProperty("os.name"));
 		extent.setSystemInfo("User Name", System.getProperty("user.name"));
 		extent.setSystemInfo("Environemnt", "QA");
+		extent.setSystemInfo("user", "KARANAMSESHUBABU");
+	}
+
+	public void onTestStart(ITestResult arg0) {
+		// TODO Auto-generated method stub
+
 	}
 
 	public void onTestSuccess(ITestResult result) {
 		test = extent.createTest(result.getName());
+		test.assignCategory(result.getMethod().getGroups());
+		test.createNode(result.getName());
 		test.log(Status.PASS, "Test Passed");
-		try {
-			String imgPath = new BaseClass().captureScreen(result.getName());
-			test.addScreenCaptureFromPath(imgPath);
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
+
 	}
 
 	public void onTestFailure(ITestResult result) {
 		test = extent.createTest(result.getName());
+		test.createNode(result.getName());
+		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.FAIL, "Test Failed");
 		test.log(Status.FAIL, result.getThrowable().getMessage());
-
 		try {
 			String imgPath = new BaseClass().captureScreen(result.getName());
 			test.addScreenCaptureFromPath(imgPath);
@@ -76,29 +70,19 @@ public class ExtentReportManager implements ITestListener {
 
 	public void onTestSkipped(ITestResult result) {
 		test = extent.createTest(result.getName());
+		test.createNode(result.getName());
+		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.SKIP, "Test Skipped");
 		test.log(Status.SKIP, result.getThrowable().getMessage());
 	}
 
 	public void onFinish(ITestContext testContext) {
 		extent.flush();
+	}
 
-		/*
-		 * try { URL url = new
-		 * URL("file:///"+System.getProperty("user.dir")+"\\reports\\"+repName);
-		 * 
-		 * // Create the email message ImageHtmlEmail email = new ImageHtmlEmail();
-		 * email.setDataSourceResolver(new DataSourceUrlResolver(url));
-		 * email.setHostName("smtp.googlemail.com"); email.setSmtpPort(465);
-		 * email.setAuthenticator(new
-		 * DefaultAuthenticator("pavanoltraining@gmail.com","password"));
-		 * email.setSSLOnConnect(true); email.setFrom("pavanoltraining@gmail.com");
-		 * //Sender email.setSubject("Test Results");
-		 * email.setMsg("Please find Attached Report....");
-		 * email.addTo("pavankumar.busyqa@gmail.com"); //Receiver email.attach(url,
-		 * "extent report", "please check report..."); email.send(); // send the email }
-		 * catch(Exception e) { e.printStackTrace(); }
-		 */
+	public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {
+		// TODO Auto-generated method stub
+
 	}
 
 }

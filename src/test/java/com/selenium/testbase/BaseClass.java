@@ -1,10 +1,13 @@
 package com.selenium.testbase;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.Properties;
+import java.util.ResourceBundle;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -15,36 +18,43 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+@Listeners(com.selenium.utilites.ExtentReportManager.class)
 public class BaseClass {
 
 	public static WebDriver driver;
 	public Logger logger;
+	ResourceBundle rb;
+	public  FileInputStream file;
+    public  Properties pro;
 
-	@BeforeClass
+	@BeforeSuite
 	@Parameters("browser")
 	public void setup() throws IOException {
 		ChromeOptions options = new ChromeOptions();
+
 		options.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
 		logger = LogManager.getLogger(this.getClass());
-
-		System.setProperty("WebDriver.Chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome");
+        WebDriverManager.chromedriver().setup();
+		/*System.setProperty("WebDriver.Chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome");*/
 
 		driver = new ChromeDriver(options);
 		// driver.manage().deleteAllCookies();
 
 		// driver.get("http://localhost/opencart/upload/index.php");
-
-		driver.get("http://primusbank.qedgetech.com/");
+		rb = ResourceBundle.getBundle("dynamic");
+		driver.get(rb.getString("url"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
 
 		driver.manage().window().maximize();
 	}
 
-	@AfterClass
+	@AfterSuite
 	public void tearDown() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
 		driver.close();
