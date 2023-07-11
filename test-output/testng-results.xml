@@ -17,16 +17,16 @@
       <![CDATA[*** ClickedOnLoginButton ***]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2355" started-at="2023-07-10T11:17:25Z" finished-at="2023-07-10T11:17:28Z">
+  <suite name="Default suite" duration-ms="1998" started-at="2023-07-11T04:37:23Z" finished-at="2023-07-11T04:37:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2355" started-at="2023-07-10T11:17:25Z" finished-at="2023-07-10T11:17:28Z">
+    <test name="Default test" duration-ms="1998" started-at="2023-07-11T04:37:23Z" finished-at="2023-07-11T04:37:25Z">
       <class name="com.selenium.testcases.TC_001_Login">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.testcases.TC_001_Login@617c74e5]" name="setup" is-config="true" duration-ms="15009" started-at="2023-07-10T16:47:10Z" finished-at="2023-07-10T16:47:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.testcases.TC_001_Login@617c74e5]" name="setup" is-config="true" duration-ms="8423" started-at="2023-07-11T10:07:15Z" finished-at="2023-07-11T10:07:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.selenium.testcases.TC_001_Login@617c74e5]" name="login" duration-ms="1995" started-at="2023-07-10T16:47:26Z" finished-at="2023-07-10T16:47:28Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.selenium.testcases.TC_001_Login@617c74e5]" name="login" duration-ms="1571" started-at="2023-07-11T10:07:24Z" finished-at="2023-07-11T10:07:25Z">
           <reporter-output>
             <line>
               <![CDATA[***TC_001_Login ***]]>
@@ -45,7 +45,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_001_Login@617c74e5]" name="tearDown" is-config="true" duration-ms="600" started-at="2023-07-10T16:47:28Z" finished-at="2023-07-10T16:47:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_001_Login@617c74e5]" name="tearDown" is-config="true" duration-ms="347" started-at="2023-07-11T10:07:26Z" finished-at="2023-07-11T10:07:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

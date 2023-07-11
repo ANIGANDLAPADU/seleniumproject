@@ -18,6 +18,8 @@ public class HomePage extends BasePage {
 	WebElement password;
 	@FindBy(xpath = ("//input[@name='login']"))
 	WebElement login;
+	@FindBy(xpath = ("//td[@class='headings style12']//font[@face='Arial']//font"))
+	WebElement check;
 	// Action Methods
 
 	public void EnterEmail(String name) {
@@ -32,4 +34,8 @@ public class HomePage extends BasePage {
 		login.click();
 	}
 
+	public String GetText() {
+		String act = check.getText();
+		return act;
+	}
 }

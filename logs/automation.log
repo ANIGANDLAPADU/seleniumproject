@@ -310,3 +310,33 @@
 16:47:26.326 [main] INFO  com.selenium.testcases.TC_001_Login - ***EnterEmailAddress ***
 16:47:26.470 [main] INFO  com.selenium.testcases.TC_001_Login - ***EnterPassword ***
 16:47:28.099 [main] INFO  com.selenium.testcases.TC_001_Login - *** ClickedOnLoginButton ***
+08:21:08.881 [main] INFO  com.selenium.testcases.TC_001_Login - ***TC_001_Login ***
+08:21:08.922 [main] INFO  com.selenium.testcases.TC_001_Login - ***created homepageobject ***
+08:21:09.843 [main] INFO  com.selenium.testcases.TC_001_Login - ***EnterEmailAddress ***
+08:21:09.934 [main] INFO  com.selenium.testcases.TC_001_Login - ***EnterPassword ***
+08:21:11.202 [main] INFO  com.selenium.testcases.TC_001_Login - *** ClickedOnLoginButton ***
+08:21:58.900 [main] INFO  com.selenium.testcases.TC_001_Login - ***TC_001_Login ***
+08:21:58.932 [main] INFO  com.selenium.testcases.TC_001_Login - ***created homepageobject ***
+08:21:59.107 [main] INFO  com.selenium.testcases.TC_001_Login - ***EnterEmailAddress ***
+08:21:59.246 [main] INFO  com.selenium.testcases.TC_001_Login - ***EnterPassword ***
+08:22:00.484 [main] INFO  com.selenium.testcases.TC_001_Login - *** ClickedOnLoginButton ***
+10:05:36.581 [main] INFO  com.selenium.testcases.TC_001_Login - ***TC_001_Login ***
+10:05:36.609 [main] INFO  com.selenium.testcases.TC_001_Login - ***created homepageobject ***
+10:05:36.712 [main] INFO  com.selenium.testcases.TC_001_Login - ***EnterEmailAddress ***
+10:05:36.809 [main] INFO  com.selenium.testcases.TC_001_Login - ***EnterPassword ***
+10:05:37.944 [main] INFO  com.selenium.testcases.TC_001_Login - *** ClickedOnLoginButton ***
+10:06:03.518 [main] INFO  com.selenium.testcases.TC_001_Login - ***TC_001_Login ***
+10:06:03.551 [main] INFO  com.selenium.testcases.TC_001_Login - ***created homepageobject ***
+10:06:03.674 [main] INFO  com.selenium.testcases.TC_001_Login - ***EnterEmailAddress ***
+10:06:03.787 [main] INFO  com.selenium.testcases.TC_001_Login - ***EnterPassword ***
+10:06:04.905 [main] INFO  com.selenium.testcases.TC_001_Login - *** ClickedOnLoginButton ***
+10:06:55.511 [main] INFO  com.selenium.testcases.TC_001_Login - ***TC_001_Login ***
+10:06:55.545 [main] INFO  com.selenium.testcases.TC_001_Login - ***created homepageobject ***
+10:06:55.660 [main] INFO  com.selenium.testcases.TC_001_Login - ***EnterEmailAddress ***
+10:06:55.775 [main] INFO  com.selenium.testcases.TC_001_Login - ***EnterPassword ***
+10:06:56.921 [main] INFO  com.selenium.testcases.TC_001_Login - *** ClickedOnLoginButton ***
+10:07:24.250 [main] INFO  com.selenium.testcases.TC_001_Login - ***TC_001_Login ***
+10:07:24.286 [main] INFO  com.selenium.testcases.TC_001_Login - ***created homepageobject ***
+10:07:24.402 [main] INFO  com.selenium.testcases.TC_001_Login - ***EnterEmailAddress ***
+10:07:24.520 [main] INFO  com.selenium.testcases.TC_001_Login - ***EnterPassword ***
+10:07:25.737 [main] INFO  com.selenium.testcases.TC_001_Login - *** ClickedOnLoginButton ***
