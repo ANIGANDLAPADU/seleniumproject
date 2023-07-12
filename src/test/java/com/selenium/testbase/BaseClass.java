@@ -24,14 +24,15 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+
 @Listeners(com.selenium.utilites.ExtentReportManager.class)
 public class BaseClass {
 
 	public static WebDriver driver;
 	public Logger logger;
 	ResourceBundle rb;
-	public  FileInputStream file;
-    public  Properties pro;
+	public FileInputStream file;
+	public Properties pro;
 
 	@BeforeSuite
 	@Parameters("browser")
@@ -40,24 +41,25 @@ public class BaseClass {
 
 		options.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
 		logger = LogManager.getLogger(this.getClass());
-        WebDriverManager.chromedriver().setup();
-		/*System.setProperty("WebDriver.Chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome");*/
+		WebDriverManager.chromedriver().setup();
 
 		driver = new ChromeDriver(options);
-		// driver.manage().deleteAllCookies();
-
-		// driver.get("http://localhost/opencart/upload/index.php");
+		logger.info("**open the browser**");
+		driver.manage().deleteAllCookies();
 		rb = ResourceBundle.getBundle("dynamic");
 		driver.get(rb.getString("url"));
+		logger.info("***Enter the URL***");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
 
 		driver.manage().window().maximize();
+		logger.info("**maximize the browser**");
 	}
 
 	@AfterSuite
 	public void tearDown() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
-		driver.close();
+		driver.quit();
+		logger.info("***closing the browser***");
 
 	}
 

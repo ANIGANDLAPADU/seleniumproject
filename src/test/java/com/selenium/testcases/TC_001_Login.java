@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import com.selenium.pageobjects.HomePage;
+import com.selenium.pageobjects.LoginPageObject;
 import com.selenium.testbase.BaseClass;
 
 public class TC_001_Login extends BaseClass {
@@ -21,19 +21,19 @@ public class TC_001_Login extends BaseClass {
 		pro = new Properties();
 		pro.load(file);
 
-		HomePage homepage = new HomePage(driver);
+		LoginPageObject loginpage = new LoginPageObject(driver);
 		logger.info("***created homepageobject ***");
 		Reporter.log("***created homepageobject ***");
-		homepage.EnterEmail(pro.getProperty("email"));
+		loginpage.EnterEmail(pro.getProperty("email"));
 		logger.info("***EnterEmailAddress ***");
 		Reporter.log("***EnterEmailAddress ***");
-		homepage.EnterPassword(pro.getProperty("password"));
+		loginpage.EnterPassword(pro.getProperty("password"));
 		logger.info("***EnterPassword ***");
 		Reporter.log("**EnterPassword ***");
-		homepage.ClickOnLogin();
+		loginpage.ClickOnLogin();
 		logger.info("*** ClickedOnLoginButton ***");
 		Reporter.log("*** ClickedOnLoginButton ***");
-		String act = homepage.GetText();
+		String act = loginpage.GetText();
 		String exp = "Welcome to Admin";
 		Assert.assertEquals(exp, act);
 		/*
