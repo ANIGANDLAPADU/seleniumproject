@@ -45,6 +45,7 @@ public class BaseClass {
 
 		driver = new ChromeDriver(options);
 		logger.info("**open the browser**");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));		
 		driver.manage().deleteAllCookies();
 		rb = ResourceBundle.getBundle("dynamic");
 		driver.get(rb.getString("url"));

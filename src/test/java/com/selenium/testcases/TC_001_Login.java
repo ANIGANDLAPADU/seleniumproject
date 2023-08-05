@@ -17,7 +17,7 @@ public class TC_001_Login extends BaseClass {
 	public void login() throws IOException {
 		logger.info("***TC_001_Login ***");
 		Reporter.log("***TC_001_Login ***");
-		file = new FileInputStream("D:/seleniumproject/src/test/resources/dynamic.properties");
+		file = new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/dynamic.properties");
 		pro = new Properties();
 		pro.load(file);
 
