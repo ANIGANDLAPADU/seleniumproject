@@ -41,11 +41,10 @@ public class BaseClass {
 
 		options.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
 		logger = LogManager.getLogger(this.getClass());
-		WebDriverManager.chromedriver().setup();
 
 		driver = new ChromeDriver(options);
 		logger.info("**open the browser**");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().deleteAllCookies();
 		rb = ResourceBundle.getBundle("dynamic");
 		driver.get(rb.getString("url"));

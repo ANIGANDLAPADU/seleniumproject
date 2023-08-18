@@ -17,16 +17,16 @@
       <![CDATA[*** ClickedOnLoginButton ***]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-08-04T21:02:49 IST" name="Suite" finished-at="2023-08-04T21:02:51 IST" duration-ms="2352">
+  <suite started-at="2023-08-18T22:44:25 IST" name="Default suite" finished-at="2023-08-18T22:44:28 IST" duration-ms="2641">
     <groups>
     </groups>
-    <test started-at="2023-08-04T21:02:49 IST" name="Test" finished-at="2023-08-04T21:02:51 IST" duration-ms="2352">
+    <test started-at="2023-08-18T22:44:25 IST" name="Default test" finished-at="2023-08-18T22:44:28 IST" duration-ms="2641">
       <class name="com.selenium.testcases.TC_001_Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.selenium.testcases.TC_001_Login@2cd76f31]" started-at="2023-08-04T21:02:43 IST" name="setup" finished-at="2023-08-04T21:02:49 IST" duration-ms="5717" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.selenium.testcases.TC_001_Login@26794848]" started-at="2023-08-18T22:44:20 IST" name="setup" finished-at="2023-08-18T22:44:25 IST" duration-ms="5650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:com.selenium.testcases.TC_001_Login@2cd76f31]" started-at="2023-08-04T21:02:49 IST" name="login" finished-at="2023-08-04T21:02:51 IST" duration-ms="1747" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.selenium.testcases.TC_001_Login@26794848]" started-at="2023-08-18T22:44:26 IST" name="login" finished-at="2023-08-18T22:44:28 IST" duration-ms="2099" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[***TC_001_Login ***]]>
@@ -45,11 +45,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_001_Login@2cd76f31]" started-at="2023-08-04T21:02:52 IST" name="tearDown" finished-at="2023-08-04T21:02:52 IST" duration-ms="249" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_001_Login@26794848]" started-at="2023-08-18T22:44:29 IST" name="tearDown" finished-at="2023-08-18T22:44:29 IST" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.selenium.testcases.TC_001_Login -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

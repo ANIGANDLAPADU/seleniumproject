@@ -10,7 +10,7 @@ public class DataProviders {
 
 	@DataProvider(name = "LoginData")
 	public static String[][] getData() throws IOException {
-		String path = "D:\\SeleniumProject\\testdata\\LoginData.xlsx";// taking xl file from testData
+		String path = "D:\\javaprojects\\seleniumproject\\testdata\\LoginData.xlsx";// taking xl file from testData
 
 		ExcelUtility xlutil = new ExcelUtility(path);// creating an object for XLUtility
 
