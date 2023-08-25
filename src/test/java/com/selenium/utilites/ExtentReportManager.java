@@ -41,8 +41,8 @@ public class ExtentReportManager implements ITestListener {
 		extent.setSystemInfo("user", "KARANAMSESHUBABU");
 	}
 
-	public void onTestStart(ITestResult arg0) {
-		// TODO Auto-generated method stub
+	public void onTestStart(ITestResult result) {
+		
 
 	}
 
@@ -80,8 +80,8 @@ public class ExtentReportManager implements ITestListener {
 		extent.flush();
 	}
 
-	public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {
-		// TODO Auto-generated method stub
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+		
 
 	}
 

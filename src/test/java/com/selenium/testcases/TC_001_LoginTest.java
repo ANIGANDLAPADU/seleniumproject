@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import com.selenium.pageobjects.LoginPageObject;
 import com.selenium.testbase.BaseClass;
 
-public class TC_001_Login extends BaseClass {
+public class TC_001_LoginTest extends BaseClass {
 
 	@Test()
 	public void login() throws IOException {
