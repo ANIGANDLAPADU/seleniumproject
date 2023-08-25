@@ -24,7 +24,6 @@
 							<suitexmlfile>testng.xml</suitexmlfile>
 						</suitexmlfiles>
 					</configuration>
-
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
