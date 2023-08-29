@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.selenium.testcases.TC_001_LoginDTTTest"/>
+      <!--<class name="com.selenium.testcases.TC_001_LoginDTTTest"/>-->
       <class name="com.selenium.testcases.TC_001_LoginTest"/>
     </classes>
   </test> <!-- Test -->

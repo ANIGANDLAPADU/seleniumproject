@@ -7,7 +7,7 @@ import com.selenium.pageobjects.LoginPageObject;
 import com.selenium.testbase.BaseClass;
 import com.selenium.utilites.DataProviders;
 
-public class TC_001_LoginDTTTest extends BaseClass {
+public class TC_002_LoginDTTTest extends BaseClass {
 
 	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class)
 
