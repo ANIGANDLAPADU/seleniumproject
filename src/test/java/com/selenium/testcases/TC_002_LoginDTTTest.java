@@ -9,7 +9,7 @@ import com.selenium.utilites.DataProviders;
 
 public class TC_002_LoginDTTTest extends BaseClass {
 
-	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class)
+	@Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class,groups = {"sanity"})
 
 	public void login_DTT(String username, String password) {
 		try {

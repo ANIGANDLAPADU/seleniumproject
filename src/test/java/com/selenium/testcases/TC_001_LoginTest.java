@@ -13,7 +13,7 @@ import com.selenium.testbase.BaseClass;
 
 public class TC_001_LoginTest extends BaseClass {
 
-	@Test()
+	@Test(groups ={"sanity"} )
 	public void login() throws IOException {
 		logger.info("***TC_001_Login ***");
 		Reporter.log("***TC_001_Login ***");

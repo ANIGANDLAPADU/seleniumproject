@@ -17,13 +17,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 @Listeners(com.selenium.utilites.ExtentReportManager.class)
 public class BaseClass {
@@ -36,14 +34,21 @@ public class BaseClass {
 
 	@BeforeSuite
 	@Parameters("browser")
-	public void setup() throws IOException {
-		ChromeOptions options = new ChromeOptions();
-
-		options.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
+	public void setup(String br) throws IOException {
+		/*
+		 * ChromeOptions options = new ChromeOptions();
+		 * 
+		 * options.setExperimentalOption("excludeSwitches", new String[] {
+		 * "enable-automation" });
+		 */
 		logger = LogManager.getLogger(this.getClass());
-
-		driver = new ChromeDriver(options);
-		logger.info("**open the browser**");
+		if (br.equals("chrome")) {
+			driver = new ChromeDriver();
+			logger.info("**open the browser**");
+		}else {
+			driver = new EdgeDriver();
+			logger.info("**open the browser**");
+		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().deleteAllCookies();
 		rb = ResourceBundle.getBundle("dynamic");
