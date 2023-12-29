@@ -1,8 +1,6 @@
 package com.selenium.testcases;
 
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Properties;
 
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -15,11 +13,6 @@ public class TC_001_LoginTest extends BaseClass {
 
 	@Test(groups ={"sanity"} )
 	public void login() throws IOException {
-		logger.info("***TC_001_Login ***");
-		Reporter.log("***TC_001_Login ***");
-		file = new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/dynamic.properties");
-		pro = new Properties();
-		pro.load(file);
 
 		LoginPageObject loginpage = new LoginPageObject(driver);
 		logger.info("***created homepageobject ***");
