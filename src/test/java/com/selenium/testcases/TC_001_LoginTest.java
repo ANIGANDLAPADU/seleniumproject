@@ -13,7 +13,8 @@ public class TC_001_LoginTest extends BaseClass {
 
 	@Test(groups ={"sanity"} )
 	public void login() throws IOException {
-
+		logger.info("***TC_001_Login ***");
+		Reporter.log("***TC_001_Login ***");
 		LoginPageObject loginpage = new LoginPageObject(driver);
 		logger.info("***created homepageobject ***");
 		Reporter.log("***created homepageobject ***");
