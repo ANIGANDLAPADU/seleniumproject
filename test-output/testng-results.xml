@@ -1,96 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[***TC_001_Login ***]]>
+    </line>
+    <line>
+      <![CDATA[***created homepageobject ***]]>
+    </line>
+    <line>
+      <![CDATA[***EnterEmailAddress ***]]>
+    </line>
+    <line>
+      <![CDATA[**EnterPassword ***]]>
+    </line>
+    <line>
+      <![CDATA[*** ClickedOnLoginButton ***]]>
+    </line>
+    <line>
+      <![CDATA[***TC_001_Login ***]]>
+    </line>
+    <line>
+      <![CDATA[***created homepageobject ***]]>
+    </line>
+    <line>
+      <![CDATA[***EnterEmailAddress ***]]>
+    </line>
+    <line>
+      <![CDATA[**EnterPassword ***]]>
+    </line>
+    <line>
+      <![CDATA[*** ClickedOnLoginButton ***]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-12-31T09:11:34 IST" name="Default suite" finished-at="2023-12-31T09:11:35 IST" duration-ms="752">
+  <suite started-at="2024-01-28T09:52:16 IST" name="Suite" finished-at="2024-01-28T10:37:59 IST" duration-ms="2742344">
     <groups>
       <group name="sanity">
-        <method signature="TC_001_LoginTest.login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@6440112d]" name="login" class="com.selenium.testcases.TC_001_LoginTest"/>
+        <method signature="TC_001_LoginTest.login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@183ec003]" name="login" class="com.selenium.testcases.TC_001_LoginTest"/>
+        <method signature="TC_001_LoginTest.login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@3de8f619]" name="login" class="com.selenium.testcases.TC_001_LoginTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-12-31T09:11:34 IST" name="Default test" finished-at="2023-12-31T09:11:35 IST" duration-ms="752">
+    <test started-at="2024-01-28T09:52:16 IST" name="chromeTest" finished-at="2024-01-28T10:25:43 IST" duration-ms="2006304">
       <class name="com.selenium.testcases.TC_001_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@6440112d]" started-at="2023-12-31T09:11:35 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1703994095410" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method setup but has not been marked @Optional or defined
-in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-739705386\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method setup but has not been marked @Optional or defined
-in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-739705386\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@183ec003]" started-at="2024-01-28T09:52:18 IST" name="setup" finished-at="2024-01-28T10:25:37 IST" duration-ms="1999345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@6440112d]" started-at="2023-12-31T09:11:35 IST" name="login" finished-at="2023-12-31T09:11:35 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method setup but has not been marked @Optional or defined
-in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-739705386\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method setup but has not been marked @Optional or defined
-in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-739705386\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-at org.testng.TestRunner.beforeRun(TestRunner.java:652)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method signature="login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@183ec003]" started-at="2024-01-28T10:25:37 IST" name="login" finished-at="2024-01-28T10:25:42 IST" duration-ms="4099" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[***TC_001_Login ***]]>
+            </line>
+            <line>
+              <![CDATA[***created homepageobject ***]]>
+            </line>
+            <line>
+              <![CDATA[***EnterEmailAddress ***]]>
+            </line>
+            <line>
+              <![CDATA[**EnterPassword ***]]>
+            </line>
+            <line>
+              <![CDATA[*** ClickedOnLoginButton ***]]>
+            </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@6440112d]" started-at="2023-12-31T09:11:35 IST" name="tearDown" finished-at="2023-12-31T09:11:35 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@183ec003]" started-at="2024-01-28T10:25:42 IST" name="tearDown" finished-at="2024-01-28T10:25:43 IST" duration-ms="1029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.selenium.testcases.TC_001_LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- chromeTest -->
+    <test started-at="2024-01-28T10:25:44 IST" name="edgeTest" finished-at="2024-01-28T10:37:59 IST" duration-ms="734518">
+      <class name="com.selenium.testcases.TC_001_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@3de8f619]" started-at="2024-01-28T10:25:44 IST" name="setup" finished-at="2024-01-28T10:37:56 IST" duration-ms="731567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@3de8f619]" started-at="2024-01-28T10:37:56 IST" name="login" finished-at="2024-01-28T10:37:58 IST" duration-ms="2171" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[***TC_001_Login ***]]>
+            </line>
+            <line>
+              <![CDATA[***created homepageobject ***]]>
+            </line>
+            <line>
+              <![CDATA[***EnterEmailAddress ***]]>
+            </line>
+            <line>
+              <![CDATA[**EnterPassword ***]]>
+            </line>
+            <line>
+              <![CDATA[*** ClickedOnLoginButton ***]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@3de8f619]" started-at="2024-01-28T10:37:58 IST" name="tearDown" finished-at="2024-01-28T10:37:59 IST" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.testcases.TC_001_LoginTest -->
+    </test> <!-- edgeTest -->
+  </suite> <!-- Suite -->
 </testng-results>

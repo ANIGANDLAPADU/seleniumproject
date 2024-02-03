@@ -48,7 +48,7 @@ public class BaseClass {
 		if (browser.equalsIgnoreCase(pro.getProperty("browser"))) {
 			driver = new ChromeDriver();
 			logger.info("**open the browser**");
-		}else {
+		}{
 			driver = new EdgeDriver();
 			logger.info("**open the browser**");
 		}
