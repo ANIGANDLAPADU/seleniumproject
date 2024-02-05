@@ -8,7 +8,6 @@ import java.time.Duration;
 import java.util.Date;
 import java.util.Properties;
 import java.util.ResourceBundle;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -18,8 +17,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 
@@ -32,8 +31,8 @@ public class BaseClass {
 	ResourceBundle rb;
 	public FileInputStream file;
 	public Properties pro;
-	@BeforeTest
 	@Parameters("browser")
+	@BeforeMethod
 	public void setup(String browser) throws IOException {
 		/*
 		 * ChromeOptions options = new ChromeOptions();
@@ -42,13 +41,13 @@ public class BaseClass {
 		 * "enable-automation" });
 		 */
 		logger = LogManager.getLogger(this.getClass());
-		file = new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/dynamic.properties");
+		file = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\dynamic.properties");
 		pro = new Properties();
 		pro.load(file);
 		if (browser.equalsIgnoreCase(pro.getProperty("browser"))) {
 			driver = new ChromeDriver();
 			logger.info("**open the browser**");
-		}{
+		}else{
 			driver = new EdgeDriver();
 			logger.info("**open the browser**");
 		}
@@ -63,7 +62,7 @@ public class BaseClass {
 		logger.info("**maximize the browser**");
 	}
 
-	@AfterTest
+	@AfterMethod
 	public void tearDown() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
 		driver.quit();

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[***TC_001_Login ***]]>
+      <![CDATA[***TC_001_LoginDTT ***]]>
     </line>
     <line>
       <![CDATA[***created homepageobject ***]]>
@@ -17,7 +17,88 @@
       <![CDATA[*** ClickedOnLoginButton ***]]>
     </line>
     <line>
-      <![CDATA[***TC_001_Login ***]]>
+      <![CDATA[***Accepting the alret message***]]>
+    </line>
+    <line>
+      <![CDATA[***ClearEmailInput***]]>
+    </line>
+    <line>
+      <![CDATA[*** ClearPasswordInput ***]]>
+    </line>
+    <line>
+      <![CDATA[***TC_001_LoginDTT ***]]>
+    </line>
+    <line>
+      <![CDATA[***created homepageobject ***]]>
+    </line>
+    <line>
+      <![CDATA[***EnterEmailAddress ***]]>
+    </line>
+    <line>
+      <![CDATA[**EnterPassword ***]]>
+    </line>
+    <line>
+      <![CDATA[*** ClickedOnLoginButton ***]]>
+    </line>
+    <line>
+      <![CDATA[***Accepting the alret message***]]>
+    </line>
+    <line>
+      <![CDATA[***ClearEmailInput***]]>
+    </line>
+    <line>
+      <![CDATA[*** ClearPasswordInput ***]]>
+    </line>
+    <line>
+      <![CDATA[***TC_001_LoginDTT ***]]>
+    </line>
+    <line>
+      <![CDATA[***created homepageobject ***]]>
+    </line>
+    <line>
+      <![CDATA[***EnterEmailAddress ***]]>
+    </line>
+    <line>
+      <![CDATA[**EnterPassword ***]]>
+    </line>
+    <line>
+      <![CDATA[*** ClickedOnLoginButton ***]]>
+    </line>
+    <line>
+      <![CDATA[***Accepting the alret message***]]>
+    </line>
+    <line>
+      <![CDATA[***ClearEmailInput***]]>
+    </line>
+    <line>
+      <![CDATA[*** ClearPasswordInput ***]]>
+    </line>
+    <line>
+      <![CDATA[***TC_001_LoginDTT ***]]>
+    </line>
+    <line>
+      <![CDATA[***created homepageobject ***]]>
+    </line>
+    <line>
+      <![CDATA[***EnterEmailAddress ***]]>
+    </line>
+    <line>
+      <![CDATA[**EnterPassword ***]]>
+    </line>
+    <line>
+      <![CDATA[*** ClickedOnLoginButton ***]]>
+    </line>
+    <line>
+      <![CDATA[***Accepting the alret message***]]>
+    </line>
+    <line>
+      <![CDATA[***ClearEmailInput***]]>
+    </line>
+    <line>
+      <![CDATA[*** ClearPasswordInput ***]]>
+    </line>
+    <line>
+      <![CDATA[***TC_001_LoginDTT ***]]>
     </line>
     <line>
       <![CDATA[***created homepageobject ***]]>
@@ -32,16 +113,15 @@
       <![CDATA[*** ClickedOnLoginButton ***]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-28T09:52:16 IST" name="Suite" finished-at="2024-01-28T10:37:59 IST" duration-ms="2742344">
+  <suite started-at="2024-02-05T08:08:15 IST" name="Suite" finished-at="2024-02-05T08:08:42 IST" duration-ms="27151">
     <groups>
       <group name="sanity">
-        <method signature="TC_001_LoginTest.login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@183ec003]" name="login" class="com.selenium.testcases.TC_001_LoginTest"/>
-        <method signature="TC_001_LoginTest.login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@3de8f619]" name="login" class="com.selenium.testcases.TC_001_LoginTest"/>
+        <method signature="TC_002_LoginDTTTest.login_DTT(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" name="login_DTT" class="com.selenium.testcases.TC_002_LoginDTTTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-01-28T09:52:16 IST" name="chromeTest" finished-at="2024-01-28T10:25:43 IST" duration-ms="2006304">
-      <class name="com.selenium.testcases.TC_001_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@183ec003]" started-at="2024-01-28T09:52:18 IST" name="setup" finished-at="2024-01-28T10:25:37 IST" duration-ms="1999345" status="PASS">
+    <test started-at="2024-02-05T08:08:15 IST" name="Test" finished-at="2024-02-05T08:08:42 IST" duration-ms="27151">
+      <class name="com.selenium.testcases.TC_002_LoginDTTTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:16 IST" name="setup" finished-at="2024-02-05T08:08:22 IST" duration-ms="5482" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,10 +132,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@183ec003]" started-at="2024-01-28T10:25:37 IST" name="login" finished-at="2024-01-28T10:25:42 IST" duration-ms="4099" status="PASS">
+        <test-method signature="login_DTT(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:22 IST" name="login_DTT" data-provider="LoginData" finished-at="2024-02-05T08:08:22 IST" duration-ms="746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admi]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[***TC_001_Login ***]]>
+              <![CDATA[***TC_001_LoginDTT ***]]>
             </line>
             <line>
               <![CDATA[***created homepageobject ***]]>
@@ -69,31 +161,213 @@
             <line>
               <![CDATA[*** ClickedOnLoginButton ***]]>
             </line>
+            <line>
+              <![CDATA[***Accepting the alret message***]]>
+            </line>
+            <line>
+              <![CDATA[***ClearEmailInput***]]>
+            </line>
+            <line>
+              <![CDATA[*** ClearPasswordInput ***]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@183ec003]" started-at="2024-01-28T10:25:42 IST" name="tearDown" finished-at="2024-01-28T10:25:43 IST" duration-ms="1029" status="PASS">
+        </test-method> <!-- login_DTT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:22 IST" name="tearDown" finished-at="2024-02-05T08:08:22 IST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.selenium.testcases.TC_001_LoginTest -->
-    </test> <!-- chromeTest -->
-    <test started-at="2024-01-28T10:25:44 IST" name="edgeTest" finished-at="2024-01-28T10:37:59 IST" duration-ms="734518">
-      <class name="com.selenium.testcases.TC_001_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@3de8f619]" started-at="2024-01-28T10:25:44 IST" name="setup" finished-at="2024-01-28T10:37:56 IST" duration-ms="731567" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:22 IST" name="setup" finished-at="2024-02-05T08:08:28 IST" duration-ms="5216" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@3de8f619]" started-at="2024-01-28T10:37:56 IST" name="login" finished-at="2024-01-28T10:37:58 IST" duration-ms="2171" status="PASS">
+        <test-method signature="login_DTT(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:28 IST" name="login_DTT" data-provider="LoginData" finished-at="2024-02-05T08:08:28 IST" duration-ms="664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[***TC_001_Login ***]]>
+              <![CDATA[***TC_001_LoginDTT ***]]>
+            </line>
+            <line>
+              <![CDATA[***created homepageobject ***]]>
+            </line>
+            <line>
+              <![CDATA[***EnterEmailAddress ***]]>
+            </line>
+            <line>
+              <![CDATA[**EnterPassword ***]]>
+            </line>
+            <line>
+              <![CDATA[*** ClickedOnLoginButton ***]]>
+            </line>
+            <line>
+              <![CDATA[***Accepting the alret message***]]>
+            </line>
+            <line>
+              <![CDATA[***ClearEmailInput***]]>
+            </line>
+            <line>
+              <![CDATA[*** ClearPasswordInput ***]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_DTT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:28 IST" name="tearDown" finished-at="2024-02-05T08:08:29 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:29 IST" name="setup" finished-at="2024-02-05T08:08:32 IST" duration-ms="3349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login_DTT(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:32 IST" name="login_DTT" data-provider="LoginData" finished-at="2024-02-05T08:08:33 IST" duration-ms="706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[***TC_001_LoginDTT ***]]>
+            </line>
+            <line>
+              <![CDATA[***created homepageobject ***]]>
+            </line>
+            <line>
+              <![CDATA[***EnterEmailAddress ***]]>
+            </line>
+            <line>
+              <![CDATA[**EnterPassword ***]]>
+            </line>
+            <line>
+              <![CDATA[*** ClickedOnLoginButton ***]]>
+            </line>
+            <line>
+              <![CDATA[***Accepting the alret message***]]>
+            </line>
+            <line>
+              <![CDATA[***ClearEmailInput***]]>
+            </line>
+            <line>
+              <![CDATA[*** ClearPasswordInput ***]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_DTT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:33 IST" name="tearDown" finished-at="2024-02-05T08:08:33 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:33 IST" name="setup" finished-at="2024-02-05T08:08:36 IST" duration-ms="3432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login_DTT(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:36 IST" name="login_DTT" data-provider="LoginData" finished-at="2024-02-05T08:08:37 IST" duration-ms="676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[***TC_001_LoginDTT ***]]>
+            </line>
+            <line>
+              <![CDATA[***created homepageobject ***]]>
+            </line>
+            <line>
+              <![CDATA[***EnterEmailAddress ***]]>
+            </line>
+            <line>
+              <![CDATA[**EnterPassword ***]]>
+            </line>
+            <line>
+              <![CDATA[*** ClickedOnLoginButton ***]]>
+            </line>
+            <line>
+              <![CDATA[***Accepting the alret message***]]>
+            </line>
+            <line>
+              <![CDATA[***ClearEmailInput***]]>
+            </line>
+            <line>
+              <![CDATA[*** ClearPasswordInput ***]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_DTT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:37 IST" name="tearDown" finished-at="2024-02-05T08:08:37 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:37 IST" name="setup" finished-at="2024-02-05T08:08:41 IST" duration-ms="3563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login_DTT(java.lang.String,java.lang.String)[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:41 IST" name="login_DTT" data-provider="LoginData" finished-at="2024-02-05T08:08:42 IST" duration-ms="1191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[***TC_001_LoginDTT ***]]>
             </line>
             <line>
               <![CDATA[***created homepageobject ***]]>
@@ -108,12 +382,12 @@
               <![CDATA[*** ClickedOnLoginButton ***]]>
             </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@3de8f619]" started-at="2024-01-28T10:37:58 IST" name="tearDown" finished-at="2024-01-28T10:37:59 IST" duration-ms="742" status="PASS">
+        </test-method> <!-- login_DTT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_002_LoginDTTTest@273444fe]" started-at="2024-02-05T08:08:42 IST" name="tearDown" finished-at="2024-02-05T08:08:42 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.selenium.testcases.TC_001_LoginTest -->
-    </test> <!-- edgeTest -->
+      </class> <!-- com.selenium.testcases.TC_002_LoginDTTTest -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
