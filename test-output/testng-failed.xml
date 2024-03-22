@@ -4,15 +4,16 @@
   <listeners>
     <listener class-name="com.selenium.utilites.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="edgeTest(failed)">
+    <parameter name="browser" value="edge"/>
     <classes>
-      <class name="com.selenium.testcases.TC_002_LoginDTTTest">
+      <class name="com.selenium.testcases.TC_001_LoginTest">
         <methods>
-          <include name="login_DTT"/>
+          <include name="login"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.selenium.testcases.TC_002_LoginDTTTest -->
+      </class> <!-- com.selenium.testcases.TC_001_LoginTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- edgeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
