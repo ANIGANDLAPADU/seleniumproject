@@ -36,7 +36,7 @@ public class BaseClass {
 
 	@Parameters("browser")
 	@BeforeMethod
-	public void setup(@Optional("chrome") String browser) throws IOException {
+	public void setup(@Optional("edge") String browser) throws IOException {
 		/*
 		 * ChromeOptions options = new ChromeOptions();
 		 * 
@@ -47,10 +47,10 @@ public class BaseClass {
 		file = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\resources\\dynamic.properties");
 		pro = new Properties();
 		pro.load(file);
-		if (browser.equalsIgnoreCase(pro.getProperty("browser"))) {
+		if (browser.equalsIgnoreCase(("chrome"))) {
 			driver = new ChromeDriver();
 			logger.info("**open the browser**");
-		} else if(browser.equalsIgnoreCase(pro.getProperty("browser"))) {
+		} else if(browser.equalsIgnoreCase(("edge"))) {
 			driver = new EdgeDriver();
 			logger.info("**open the browser**");
 		}
