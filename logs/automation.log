@@ -370,3 +370,57 @@
 07:57:33.489 [main] INFO  com.selenium.testcases.TC_001_LoginTest - **maximize the browser**
 07:57:33.492 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***TC_001_Login ***
 07:57:33.506 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***created homepageobject ***
+17:16:52.691 [main] INFO  com.selenium.testcases.TC_001_LoginTest - **open the browser**
+17:16:54.484 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***Enter the URL***
+17:16:54.651 [main] INFO  com.selenium.testcases.TC_001_LoginTest - **maximize the browser**
+17:16:54.678 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***TC_001_Login ***
+17:16:54.742 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***created homepageobject ***
+17:16:54.948 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***EnterEmailAddress ***
+17:16:55.067 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***EnterPassword ***
+17:16:56.210 [main] INFO  com.selenium.testcases.TC_001_LoginTest - *** ClickedOnLoginButton ***
+17:16:56.489 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***closing the browser***
+17:16:58.641 [main] INFO  com.selenium.testcases.TC_001_LoginTest - **open the browser**
+17:17:00.310 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***Enter the URL***
+17:17:00.463 [main] INFO  com.selenium.testcases.TC_001_LoginTest - **maximize the browser**
+17:17:00.468 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***TC_001_Login ***
+17:17:00.470 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***created homepageobject ***
+17:17:00.687 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***EnterEmailAddress ***
+17:17:00.767 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***EnterPassword ***
+17:17:01.586 [main] INFO  com.selenium.testcases.TC_001_LoginTest - *** ClickedOnLoginButton ***
+17:17:02.996 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***closing the browser***
+17:17:21.466 [main] INFO  com.selenium.testcases.TC_001_LoginTest - **open the browser**
+17:17:23.272 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***Enter the URL***
+17:17:23.413 [main] INFO  com.selenium.testcases.TC_001_LoginTest - **maximize the browser**
+17:17:23.434 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***TC_001_Login ***
+17:17:23.471 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***created homepageobject ***
+17:17:23.649 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***EnterEmailAddress ***
+17:17:23.750 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***EnterPassword ***
+17:17:24.565 [main] INFO  com.selenium.testcases.TC_001_LoginTest - *** ClickedOnLoginButton ***
+17:17:24.799 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***closing the browser***
+17:17:26.595 [main] INFO  com.selenium.testcases.TC_001_LoginTest - **open the browser**
+17:17:28.432 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***Enter the URL***
+17:17:28.584 [main] INFO  com.selenium.testcases.TC_001_LoginTest - **maximize the browser**
+17:17:28.586 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***TC_001_Login ***
+17:17:28.587 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***created homepageobject ***
+17:17:28.780 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***EnterEmailAddress ***
+17:17:28.872 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***EnterPassword ***
+17:17:29.579 [main] INFO  com.selenium.testcases.TC_001_LoginTest - *** ClickedOnLoginButton ***
+17:17:30.955 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***closing the browser***
+17:19:39.087 [main] INFO  com.selenium.testcases.TC_001_LoginTest - **open the browser**
+17:19:40.979 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***Enter the URL***
+17:19:41.132 [main] INFO  com.selenium.testcases.TC_001_LoginTest - **maximize the browser**
+17:19:41.182 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***TC_001_Login ***
+17:19:41.262 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***created homepageobject ***
+17:19:41.459 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***EnterEmailAddress ***
+17:19:41.564 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***EnterPassword ***
+17:19:42.353 [main] INFO  com.selenium.testcases.TC_001_LoginTest - *** ClickedOnLoginButton ***
+17:19:42.630 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***closing the browser***
+17:19:45.210 [main] INFO  com.selenium.testcases.TC_001_LoginTest - **open the browser**
+17:19:47.417 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***Enter the URL***
+17:19:47.580 [main] INFO  com.selenium.testcases.TC_001_LoginTest - **maximize the browser**
+17:19:47.589 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***TC_001_Login ***
+17:19:47.590 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***created homepageobject ***
+17:19:47.797 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***EnterEmailAddress ***
+17:19:47.897 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***EnterPassword ***
+17:19:48.615 [main] INFO  com.selenium.testcases.TC_001_LoginTest - *** ClickedOnLoginButton ***
+17:19:50.034 [main] INFO  com.selenium.testcases.TC_001_LoginTest - ***closing the browser***
