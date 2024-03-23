@@ -32,16 +32,16 @@
       <![CDATA[*** ClickedOnLoginButton ***]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-03-22T19:28:03 IST" name="Suite" finished-at="2024-03-22T19:28:25 IST" duration-ms="22469">
+  <suite started-at="2024-03-23T07:55:11 IST" name="Suite" finished-at="2024-03-23T07:55:22 IST" duration-ms="10589">
     <groups>
       <group name="sanity">
         <method signature="TC_001_LoginTest.login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@543295b0]" name="login" class="com.selenium.testcases.TC_001_LoginTest"/>
         <method signature="TC_001_LoginTest.login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@533bda92]" name="login" class="com.selenium.testcases.TC_001_LoginTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-03-22T19:28:03 IST" name="chromeTest" finished-at="2024-03-22T19:28:14 IST" duration-ms="11647">
+    <test started-at="2024-03-23T07:55:11 IST" name="chromeTest" finished-at="2024-03-23T07:55:16 IST" duration-ms="5145">
       <class name="com.selenium.testcases.TC_001_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@543295b0]" started-at="2024-03-22T19:28:03 IST" name="setup" finished-at="2024-03-22T19:28:13 IST" duration-ms="9675" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@543295b0]" started-at="2024-03-23T07:55:11 IST" name="setup" finished-at="2024-03-23T07:55:15 IST" duration-ms="3516" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@543295b0]" started-at="2024-03-22T19:28:13 IST" name="login" finished-at="2024-03-22T19:28:14 IST" duration-ms="1321" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@543295b0]" started-at="2024-03-23T07:55:15 IST" name="login" finished-at="2024-03-23T07:55:16 IST" duration-ms="1157" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[***TC_001_Login ***]]>
@@ -71,15 +71,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@543295b0]" started-at="2024-03-22T19:28:14 IST" name="tearDown" finished-at="2024-03-22T19:28:14 IST" duration-ms="302" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@543295b0]" started-at="2024-03-23T07:55:16 IST" name="tearDown" finished-at="2024-03-23T07:55:16 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.selenium.testcases.TC_001_LoginTest -->
     </test> <!-- chromeTest -->
-    <test started-at="2024-03-22T19:28:15 IST" name="edgeTest" finished-at="2024-03-22T19:28:25 IST" duration-ms="10415">
+    <test started-at="2024-03-23T07:55:16 IST" name="edgeTest" finished-at="2024-03-23T07:55:22 IST" duration-ms="5193">
       <class name="com.selenium.testcases.TC_001_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@533bda92]" started-at="2024-03-22T19:28:15 IST" name="setup" finished-at="2024-03-22T19:28:23 IST" duration-ms="8144" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@533bda92]" started-at="2024-03-23T07:55:16 IST" name="setup" finished-at="2024-03-23T07:55:19 IST" duration-ms="2719" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@533bda92]" started-at="2024-03-22T19:28:23 IST" name="login" finished-at="2024-03-22T19:28:24 IST" duration-ms="1383" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@533bda92]" started-at="2024-03-23T07:55:19 IST" name="login" finished-at="2024-03-23T07:55:20 IST" duration-ms="1131" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[***TC_001_Login ***]]>
@@ -109,7 +109,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@533bda92]" started-at="2024-03-22T19:28:24 IST" name="tearDown" finished-at="2024-03-22T19:28:25 IST" duration-ms="881" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.testcases.TC_001_LoginTest@533bda92]" started-at="2024-03-23T07:55:20 IST" name="tearDown" finished-at="2024-03-23T07:55:22 IST" duration-ms="1337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

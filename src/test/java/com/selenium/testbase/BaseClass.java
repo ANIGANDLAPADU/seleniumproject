@@ -37,7 +37,7 @@ public class BaseClass {
 
 	@Parameters("browser")
 	@BeforeMethod
-	public void setup(@Optional("edge") String browser) throws IOException {
+	public void setup(@Optional("chrome") String browser) throws IOException {
 		/*
 		 * ChromeOptions options = new ChromeOptions();
 		 * 
@@ -52,7 +52,7 @@ public class BaseClass {
 			driver = new ChromeDriver();
 			logger.info("**open the browser**");
 		} else if(browser.equalsIgnoreCase(("edge"))) {
-			driver = new FirefoxDriver();
+			driver = new EdgeDriver();
 			logger.info("**open the browser**");
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
