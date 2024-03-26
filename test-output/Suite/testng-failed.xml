@@ -4,28 +4,28 @@
   <listeners>
     <listener class-name="com.selenium.utilites.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="chromeTest(failed)">
+  <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.selenium.testcases.TC_001_LoginTest">
+      <class name="com.selenium.testcases.TC_002_LoginDTTTest">
         <methods>
-          <include name="login"/>
+          <include name="login_DTT"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.selenium.testcases.TC_001_LoginTest -->
+      </class> <!-- com.selenium.testcases.TC_002_LoginDTTTest -->
     </classes>
-  </test> <!-- chromeTest(failed) -->
-  <test thread-count="5" name="edgeTest(failed)">
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="com.selenium.testcases.TC_001_LoginTest">
+      <class name="com.selenium.testcases.TC_002_LoginDTTTest">
         <methods>
-          <include name="login"/>
+          <include name="login_DTT"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.selenium.testcases.TC_001_LoginTest -->
+      </class> <!-- com.selenium.testcases.TC_002_LoginDTTTest -->
     </classes>
-  </test> <!-- edgeTest(failed) -->
+  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

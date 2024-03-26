@@ -6,11 +6,11 @@
 	<artifactId>seleniumproject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.testSource>1.8</maven.compiler.testSource>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.testSource>1.8</maven.compiler.testSource>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 	<build>
 		<pluginManagement>
@@ -25,9 +25,9 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.0.0-M7</version>
 					<configuration>
-						<suitexmlfiles>
-							<suitexmlfile>CrossBrowser_DataDriven_testng.xml</suitexmlfile>
-						</suitexmlfiles>
+						<suiteXmlFiles>
+							<suiteXmlFile>${basedir}/CrossBrowser_DataDriven_testng.xml</suiteXmlFile>
+						</suiteXmlFiles>
 					</configuration>
 				</plugin>
 			</plugins>

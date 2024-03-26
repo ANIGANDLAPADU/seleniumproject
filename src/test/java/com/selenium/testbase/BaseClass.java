@@ -8,7 +8,6 @@ import java.time.Duration;
 import java.util.Date;
 import java.util.Properties;
 import java.util.ResourceBundle;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -17,7 +16,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -52,7 +50,7 @@ public class BaseClass {
 			driver = new ChromeDriver();
 			logger.info("**open the browser**");
 		} else if(browser.equalsIgnoreCase(("edge"))) {
-			driver = new EdgeDriver();
+			driver = new FirefoxDriver();
 			logger.info("**open the browser**");
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
