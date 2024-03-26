@@ -26,7 +26,8 @@
 					<version>3.0.0-M7</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>${basedir}/CrossBrowser_DataDriven_testng.xml</suiteXmlFile>
+							<suiteXmlFile>
+								${basedir}/CrossBrowser_DataDriven_testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
@@ -36,11 +37,14 @@
 
 	<dependencies>
 
+		<!--
+		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>4.18.1</version>
 		</dependency>
+
 		<!--
 		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 
