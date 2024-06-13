@@ -14,19 +14,19 @@ public class LoginPageObject extends BasePage {
 	// Elements
 
 	@FindBy(xpath = ("//input[@name='txtuId']"))
-	WebElement email;
+	private WebElement email;
 	@FindBy(xpath = ("//input[@name='txtPword']"))
-	WebElement password;
+	private WebElement password;
 	@FindBy(xpath = ("//input[@name='login']"))
-	WebElement login;
+	private WebElement login;
 	@FindBy(xpath = ("//td[@class='headings style12']//font[@face='Arial']//font"))
-	WebElement check;
+	private WebElement check;
 	@FindBy(xpath = ("//input[@type='text']"))
-	WebElement Clear;
+	private WebElement Clear;
 	@FindBy(xpath = ("//input[@type='password']"))
-	WebElement clear;
+	private WebElement clear;
 	@FindBy(xpath = ("//*[@id=\"Table_02\"]/tbody/tr/td[3]/a/img"))
-	WebElement LogOut;
+	private WebElement LogOut;
 	// Action Methods
 
 	public void EnterEmail(String name) {
